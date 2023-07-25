@@ -1,5 +1,5 @@
-import { registerOTel } from '@vercel/otel'
+import tracer from 'dd-trace';
 
 export function register() {
-  registerOTel('next-app')
+  tracer.init();
 }
