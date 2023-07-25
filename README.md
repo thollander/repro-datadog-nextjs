@@ -2,11 +2,17 @@
 
 Attempt to plug [`dd-trace`](https://github.com/DataDog/dd-trace-js) to NextJS through [Instrumentation experimental hook](https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation).
 
+
+```
+yarn install 
+yarn build
+```
+
 While building the application, we can see there some issues :
 
 
 ```sh
-❯ pnpm build
+❯ yarn build
 
 > @ build /Users/TERENCE/Dev/workspace-perso/repro-datadog-nextjs
 > next build
